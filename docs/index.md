@@ -67,6 +67,14 @@ flowchart TB
 | **Overall behaviour** | Engagement, usage, support, sentiment — the whole relationship, not just the till. |
 | **Decision Making** | Insights are framed as decisions: next-best-action, who to target, what to change. |
 
+## Pick your lens
+
+The same story, told three ways — start with whichever fits you:
+
+- 💼 **[Investor Pitch](audiences/investor-pitch.md)** — the opportunity, moat, model, and the ask.
+- 🛠️ **[Technical Overview](audiences/technical-overview.md)** — architecture, on-prem stack, local models, security.
+- 🚗 **[For Sales Managers](audiences/for-sales-managers.md)** — plain talk: what it does for your store.
+
 ## How to read these docs
 
 1. **[Vision](vision.md)** and **[Problem & Motivation](problem-motivation.md)** — the *why*.

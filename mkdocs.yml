@@ -65,6 +65,10 @@ plugins:
 
 nav:
   - Home: index.md
+  - Audiences:
+      - Investor Pitch: audiences/investor-pitch.md
+      - Technical Overview: audiences/technical-overview.md
+      - For Sales Managers: audiences/for-sales-managers.md
   - Vision: vision.md
   - Problem & Motivation: problem-motivation.md
   - Concepts & Glossary: concepts-glossary.md
