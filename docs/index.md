@@ -8,6 +8,14 @@
     **buy**, **behave**, and **decide** — then surfaces or acts on those insights
     to improve decisions.
 
+!!! tip "Focus: automotive, on-prem, private"
+    The beachhead is the **car industry** — dealerships and, through them, OEMs —
+    where the buyer's pre-purchase decision behaviour is the most valuable,
+    least-captured data there is. AutoAgentAI is built to run **on-prem on local AI
+    models**, so sensitive customer data **never leaves the building**. See
+    [Deployment & Privacy](deployment/on-prem-ai-hardware.md) and the
+    [Perspectives](perspectives/the-most-valuable-data-in-autos.md) articles.
+
 ---
 
 ## Why this exists
@@ -70,7 +78,9 @@ flowchart TB
    [Decision Making](decision-making.md) ·
    [The AutoAgent Loop](agent-loop.md).
 4. **[Use Cases](use-cases.md)** — made concrete.
-5. **[Roadmap](roadmap.md)** and **[Specifications](specs/index.md)** — the path to building.
+5. **[Deployment & Privacy](deployment/on-prem-ai-hardware.md)** — on-prem/local AI, the four tiers, [privacy & PII](deployment/privacy-pii-future-proofing.md), and [cloud vs on-prem risks](deployment/cloud-vs-onprem-risks.md).
+6. **[Perspectives](perspectives/the-most-valuable-data-in-autos.md)** — the automotive thesis: the industry's most valuable data, the salesperson's changing role, and [closing the loop to the OEM](perspectives/automotive-data-closing-the-loop.md).
+7. **[Roadmap](roadmap.md)** and **[Specifications](specs/index.md)** — the path to building.
 
 !!! note "Status"
     This is a **concept-and-documentation** repository. It organizes the thinking

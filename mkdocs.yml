@@ -75,6 +75,19 @@ nav:
   - Decision Making: decision-making.md
   - The AutoAgent Loop: agent-loop.md
   - Use Cases: use-cases.md
+  - Deployment & Privacy:
+      - On-Prem AI & Hardware: deployment/on-prem-ai-hardware.md
+      - "Privacy, PII & Future-Proofing": deployment/privacy-pii-future-proofing.md
+      - Cloud vs On-Prem Risks: deployment/cloud-vs-onprem-risks.md
+      - Local Models Are Enough: deployment/local-models-are-enough.md
+  - Perspectives:
+      - "Raw Data to Action (Scenario)": perspectives/raw-data-to-action.md
+      - Reinventing the Salesperson: perspectives/reinventing-the-salesperson.md
+      - "Why Salespeople Can't Capture This": perspectives/why-salespeople-cant-capture-this.md
+      - The Most Valuable Data in Autos: perspectives/the-most-valuable-data-in-autos.md
+      - How Valuable This Data Is: perspectives/how-valuable-this-data-is.md
+      - Closing the Loop to the OEM: perspectives/automotive-data-closing-the-loop.md
+      - "The Closed Loop: Impossible Before": perspectives/the-closed-loop.md
   - Roadmap: roadmap.md
   - Specifications:
       - Overview: specs/index.md
