@@ -1,0 +1,81 @@
+site_name: AutoAgentAI
+site_description: >-
+  AutoAgent and Customer-Integrated Custom Insights into Purchase and
+  Overall Behaviour and Decision Making.
+site_author: Nikhil Prakash
+site_url: https://nikhilprakash24.github.io/AutoAgentAI-consumerDataIntegrationAndCollection/
+repo_name: nikhilprakash24/AutoAgentAI-consumerDataIntegrationAndCollection
+repo_url: https://github.com/nikhilprakash24/AutoAgentAI-consumerDataIntegrationAndCollection
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Vision: vision.md
+  - Problem & Motivation: problem-motivation.md
+  - Concepts & Glossary: concepts-glossary.md
+  - Architecture: architecture.md
+  - Customer Integration: customer-integration.md
+  - Insights Engine: insights-engine.md
+  - Behaviour Models: behaviour-models.md
+  - Decision Making: decision-making.md
+  - The AutoAgent Loop: agent-loop.md
+  - Use Cases: use-cases.md
+  - Roadmap: roadmap.md
+  - Specifications:
+      - Overview: specs/index.md
+  - Figure Specs: assets/diagrams/FIGURE_SPECS.md
