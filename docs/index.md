@@ -69,8 +69,9 @@ flowchart TB
 
 ## Pick your lens
 
-The same story, told three ways — start with whichever fits you:
+The same story, told for whoever's reading — start with whichever fits you:
 
+- 📄 **[Executive Summary](audiences/executive-summary.md)** — the whole thing on one page ([PDF](assets/AutoAgentAI-Executive-Summary.pdf)).
 - 💼 **[Investor Pitch](audiences/investor-pitch.md)** — the opportunity, moat, model, and the ask.
 - 🛠️ **[Technical Overview](audiences/technical-overview.md)** — architecture, on-prem stack, local models, security.
 - 🚗 **[For Sales Managers](audiences/for-sales-managers.md)** — plain talk: what it does for your store.

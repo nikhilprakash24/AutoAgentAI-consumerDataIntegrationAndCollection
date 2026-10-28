@@ -135,3 +135,57 @@ Each entry gives a **suggested filename**, **where it would go**, and a
 !!! tip "You don't have to generate anything to ship"
     The Mermaid diagrams already carry every page. The Part B visuals are polish for
     when you want a more designed look — generate them on your own schedule.
+
+---
+
+## Part C — Deployment & perspective visuals (prompts)
+
+Same shared style guide as Part B. These back the automotive, on-prem, and audience
+pages.
+
+### Fig 8 — The four deployment tiers
+- **File:** `tiers.png` · **Use:** `deployment/on-prem-ai-hardware.md`, `audiences/investor-pitch.md`.
+- **Prompt:**
+  > A clean horizontal "ladder" of four ascending tiers labeled "Tier 0 Cloud,"
+  > "Tier 1 Local Essentials," "Tier 2 Local Pro," "Tier 3 Local Enterprise." Tier 0
+  > sits lower with a small cloud icon and a subtle warning tint ("data leaves
+  > premises"); Tiers 1–3 ascend with a padlock and on-prem server icons growing from
+  > a single box to a rack, each tagged "data stays on-site." Indigo→purple gradient
+  > darkening as it ascends, light background, flat vector. 16:9.
+
+### Fig 9 — On-prem topology: kiosks & iPad nodes
+- **File:** `topology.png` · **Use:** `deployment/on-prem-ai-hardware.md`, `audiences/technical-overview.md`.
+- **Prompt:**
+  > A hub-and-spoke diagram. Center: a single on-prem server box labeled "On-prem
+  > node — local AI models + customer data + agent," drawn with a padlock. Spokes out
+  > to several thin devices: two large self-serve kiosks and three iPads, each labeled
+  > "node (thin client)." One dotted arrow leaves the hub labeled "only aggregated,
+  > consented signal → OEM." Emphasize that intelligence/data stay central, devices
+  > are thin. Indigo/purple on light, flat vector. 16:9.
+
+### Fig 10 — Closing the loop to the OEM
+- **File:** `closed-loop.png` · **Use:** `perspectives/automotive-data-closing-the-loop.md`, `perspectives/the-closed-loop.md`.
+- **Prompt:**
+  > A large circular loop connecting four labeled nodes clockwise: "Buyer decides (on
+  > the floor)," "Agent captures & acts," "Aggregated intent signal," "OEM builds &
+  > prices better," returning to the buyer via "Better cars & offers." Raw-data icon
+  > near the buyer marked "stays on-prem," and the signal going up marked "anonymized."
+  > Convey a previously-broken loop now closed. Indigo/purple on light, flat vector.
+  > Square or 16:9.
+
+### Fig 11 — Raw data → action funnel
+- **File:** `data-to-action.png` · **Use:** `perspectives/raw-data-to-action.md`, home.
+- **Prompt:**
+  > A clean left-to-right funnel/pipeline with five stages: "Raw data (scattered)," →
+  > "Useful data (one profile)," → "Insight," → "Action," → "Outcome," with a thin
+  > dotted "feedback" arrow curving from Outcome back to Raw data. Scattered dots on
+  > the left gradually resolve into a single clean figure on the right. Indigo/purple
+  > on light, flat vector. 16:9.
+
+### Fig 12 — "Why now": three converging curves
+- **File:** `why-now.png` · **Use:** `audiences/investor-pitch.md`.
+- **Prompt:**
+  > Three labeled trend lines rising and converging at a single highlighted point
+  > marked "The opening / now": "Agentic AI capability," "Open local-model quality,"
+  > and "Privacy-law pressure." Minimal chart aesthetic, no fake numbers, clean axes,
+  > the convergence point glowing. Indigo/purple accents on light. 16:9.

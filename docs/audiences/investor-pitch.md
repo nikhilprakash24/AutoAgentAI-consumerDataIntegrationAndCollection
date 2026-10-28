@@ -105,10 +105,26 @@ the loop to the manufacturer.
 
 ## Roadmap & the ask
 
-Today: concept and documentation complete ([roadmap](../roadmap.md)). Next:
-specifications and a design-partner pilot. **The ask:** [capital / a design-partner
-dealer / an OEM introduction — fill in per conversation] to fund Phase 1 (specs) and
-a measured Tier-0/1 pilot that proves the lift and the loop.
+**Today:** concept and documentation complete ([roadmap](../roadmap.md)).
+**Next (Phase 1):** specifications + a measured design-partner pilot.
+
+**The ask — three ways to help:**
+
+1. **Capital** — a **`[pre-seed / seed — $XXXk–$X.Xm — to confirm]`** round to fund
+   Phase 1 specs and a Tier-0/1 pilot that proves the conversion, trade-in, and
+   retention lift against a holdout.
+2. **A design-partner dealership** — one rooftop willing to run the pilot and share
+   outcomes; they get the lift and first-mover advantage.
+3. **An OEM introduction** — a manufacturer contact to scope the aggregated,
+   anonymized buyer-intent feedback loop.
+
+**Use of funds:** specifications & architecture, the local-model evaluation and first
+models, integration with the pilot dealer's systems, and the kiosk/iPad build.
+
+!!! note "Set the numbers"
+    The round, amount, and valuation are placeholders (`[...]`) until confirmed —
+    tell me the real figures and I'll drop them in. The strategic asks (design
+    partner, OEM intro) hold regardless.
 
 !!! quote "Why we win"
     Everyone has an AI agent. We found the gold it's for — the car industry's most

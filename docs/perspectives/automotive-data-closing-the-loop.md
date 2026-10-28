@@ -12,6 +12,13 @@ intent all the way back to the OEM, where it can change decisions.**
     They know almost nothing, in real time, about *why a person did or didn't buy on
     the floor.* That's the loop we close.
 
+!!! info "What 'CV' means here"
+    In this article **CV = connected vehicle** — the telematics, usage, and health
+    data modern cars stream back to the manufacturer after the sale. In-dealership
+    camera data we call **computer vision** throughout, so the two terms don't
+    collide. The point below is that OEMs are rich in CV (post-sale) data and poor in
+    *pre-purchase decision* data — and that's the gap.
+
 ## The automotive data landscape
 
 Auto data comes in several layers. Most are already well-captured; one is not.

@@ -66,6 +66,7 @@ plugins:
 nav:
   - Home: index.md
   - Audiences:
+      - Executive Summary: audiences/executive-summary.md
       - Investor Pitch: audiences/investor-pitch.md
       - Technical Overview: audiences/technical-overview.md
       - For Sales Managers: audiences/for-sales-managers.md
