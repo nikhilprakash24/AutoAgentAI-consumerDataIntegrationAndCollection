@@ -43,6 +43,19 @@ natively here on GitHub as markdown.
 | [Specifications](./docs/specs/index.md) | Placeholder for future technical specs |
 | [Figure Specs](./docs/assets/diagrams/FIGURE_SPECS.md) | Visual/diagram specs you can hand to an image generator |
 
+## 📥 Downloads (offline / editable copies)
+
+For collaborators, investors, or editing outside GitHub — see the
+[Downloads page](./docs/downloads.md):
+
+| File | For |
+|---|---|
+| [Full Documentation — Word](./docs/exports/AutoAgentAI-Documentation.docx) | Editing (Word / Google Docs / Pages) |
+| [Full Documentation — PDF](./docs/exports/AutoAgentAI-Full-Documentation.pdf) | Reading / sharing (diagrams rendered, 82 pp.) |
+| [Executive Summary — PDF](./docs/exports/AutoAgentAI-Executive-Summary.pdf) | One-page pitch |
+
+Regenerate anytime with `make exports`.
+
 ## 🏗️ The five pillars
 
 ```mermaid
@@ -62,6 +75,15 @@ flowchart LR
 pip install -r requirements.txt
 mkdocs serve        # live preview at http://127.0.0.1:8000
 mkdocs build        # static site into ./site
+```
+
+Or via the `Makefile`:
+
+```bash
+make serve          # live preview
+make build          # build the static site
+make exports        # rebuild the Word + PDF downloads (needs pandoc, python-docx, node+playwright)
+make count          # word & line counts
 ```
 
 Pushing to `main` auto-builds and deploys the site via the workflow in
